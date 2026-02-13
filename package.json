@@ -1,0 +1,62 @@
+{
+  "name": "@scmp/core",
+  "version": "2.1.0",
+  "description": "Browser-native vector database with HNSW indexing, multi-tier storage, and semantic clustering",
+  "main": "src/scmp.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "echo 'No build step required - pure ES modules'",
+    "example:basic": "node examples/basic-usage.js",
+    "example:rag": "node examples/rag-application.js"
+  },
+  "keywords": [
+    "vector-database",
+    "embeddings",
+    "semantic-search",
+    "hnsw",
+    "indexeddb",
+    "browser",
+    "ai",
+    "machine-learning",
+    "rag",
+    "retrieval-augmented-generation",
+    "ollama",
+    "local-first",
+    "privacy"
+  ],
+  "author": "SCMP Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/scmp-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/scmp-core/issues"
+  },
+  "homepage": "https://github.com/yourusername/scmp-core#readme",
+  "dependencies": {
+    "edgevec": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/scmp.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "files": [
+    "src/",
+    "types/",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "edgevec": "^1.0.0"
+  }
+}
