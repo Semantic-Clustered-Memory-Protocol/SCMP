@@ -1,6 +1,6 @@
 # SCMP - Semantic Clustered Memory Protocol
 
-**The world's first production-ready browser-native vector database**
+**The world's first  browser-native vector database**
 
 [![npm version](https://badge.fury.io/js/%40scmp%2Fcore.svg)](https://www.npmjs.com/package/@scmp/core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
