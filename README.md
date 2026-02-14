@@ -53,13 +53,13 @@ SCMP is a vector database that runs **entirely in your browser**. No servers, no
 ## 📦 Installation
 
 ```bash
-npm install @scmp/core edgevec
+npm install soon
 ```
 
 Or use a CDN:
 ```html
 <script type="module">
-  import { SCMP } from 'https://cdn.jsdelivr.net/npm/@scmp/core@2.1.0/+esm';
+  import { SCMP } from 'soon';
 </script>
 ```
 
@@ -68,7 +68,7 @@ Or use a CDN:
 ### Basic Usage
 
 ```javascript
-import { SCMP } from '@scmp/core';
+import { SCMP } from 'soon';
 
 // Initialize SCMP
 const scmp = new SCMP({
@@ -102,7 +102,7 @@ console.log(results[0].similarity); // 0.89
 ### RAG (Retrieval-Augmented Generation)
 
 ```javascript
-import { SCMP } from '@scmp/core';
+import { SCMP } from 'soon';
 
 const scmp = new SCMP();
 await scmp.init();
@@ -137,7 +137,7 @@ Answer:`;
 ### Chatbot with Memory
 
 ```javascript
-import { SCMP } from '@scmp/core';
+import { SCMP } from 'soon';
 
 const scmp = new SCMP();
 await scmp.init();
@@ -343,9 +343,6 @@ If SCMP helps your project, please star it on GitHub!
 
 ## 💬 Community
 
-- [GitHub Discussions](https://github.com/yourusername/scmp-core/discussions)
-- [Discord Server](https://discord.gg/scmp)
-- [Twitter](https://twitter.com/scmpdb)
 
 ## 🎯 Roadmap
 
@@ -361,7 +358,7 @@ If SCMP helps your project, please star it on GitHub!
 ## 🙏 Acknowledgments
 
 SCMP builds on:
-- [EdgeVec](https://github.com/example/edgevec) - HNSW implementation
+
 - [Ollama](https://ollama.ai) - Local LLM and embeddings
 - Inspired by Pinecone, Weaviate, and Chroma
 
