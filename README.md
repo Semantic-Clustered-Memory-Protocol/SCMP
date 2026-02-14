@@ -327,7 +327,7 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guideline
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/scmp-core.git
+git clone https://github.com/Semantic-Clustered-Memory-Protocol/SCMP.git
 cd scmp-core
 npm install
 npm test
