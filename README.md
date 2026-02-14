@@ -335,7 +335,7 @@ npm test
 
 ## 📄 License
 
-MIT License - see [LICENSE](./LICENSE) for details.
+License - see [LICENSE](./LICENSE) for details.
 
 ## 🌟 Star History
 
